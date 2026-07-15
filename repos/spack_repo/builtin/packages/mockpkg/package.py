@@ -14,6 +14,7 @@ class Mockpkg(Package):
     url = "https://example.com/mockpkg-1.0.0.tar.gz"
 
     version("1.0.0", sha256="0000000000000000000000000000000000000000000000000000000000000000")
+    version("1.1.1", sha256="0000000000000000000000000000000000000000000000000000000000000000")
 
     def install(self, spec, prefix):
         pass
